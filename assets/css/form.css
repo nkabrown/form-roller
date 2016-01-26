@@ -1,0 +1,42 @@
+.form-element {
+  margin-top: 50px;
+  opacity: 1;
+}
+
+form {
+  width: 36%;
+  margin: 0 auto;
+}
+
+.prompt {
+  font-family: "Oswald", sans-serif;
+  font-size: 24pt;
+}
+
+.input-btn {
+  margin-top: 50px;
+  margin-left: 300px;
+  width: 100px;
+  line-height: 30px;
+  font-family: "Oswald", sans-serif;
+  font-size: 16pt;
+  padding: 0 20px;
+  border-radius: 50px;
+  border: 3px solid #222;
+  background: none;
+  outline: none;
+}
+
+.input-btn:hover {
+  color: #2ec4b6;
+  border: 3px solid #2ec4b6;
+}
+
+.form-line {
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #222;
+  width: 400px;
+  font-family: "Oswald", sans-serif;
+  font-size: 24pt;
+}
