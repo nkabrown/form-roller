@@ -1,6 +1,10 @@
 .form-element {
-  margin-top: 50px;
-  opacity: 1;
+  margin: 200px auto;
+  display: none;
+}
+
+.form-element.first {
+  display: block;
 }
 
 form {
