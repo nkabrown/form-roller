@@ -1,3 +1,8 @@
+form {
+  width: 36%;
+  margin: 0 auto;
+}
+
 .form-element {
   margin: 200px auto;
   display: none;
@@ -7,17 +12,12 @@
   display: block;
 }
 
-form {
-  width: 36%;
-  margin: 0 auto;
-}
-
-.prompt {
+.form-prompt {
   font-family: "Oswald", sans-serif;
   font-size: 24pt;
 }
 
-.input-btn {
+.form-input-btn {
   margin-top: 50px;
   margin-left: 300px;
   width: 100px;
@@ -31,10 +31,10 @@ form {
   outline: none;
 }
 
-.input-btn:hover {
-  color: #2ec4b6;
-  border: 3px solid #2ec4b6;
-}
+  .form-input-btn:hover {
+    color: #2ec4b6;
+    border: 3px solid #2ec4b6;
+  }
 
 .form-line {
   outline: none;
@@ -52,13 +52,13 @@ input[type="radio"] {
   vertical-align: bottom;
 }
 
-.radio-text {
+.form-radio-text {
   font-family: "Oswald", sans-serif;
   font-size: 16pt;
   margin-right: 18px;
 }
 
-.thankyou {
+.form-closing {
   font-family: "Oswald", sans-serif;
   font-size: 75pt;
   font-weight: 600;
@@ -66,12 +66,12 @@ input[type="radio"] {
   margin-bottom: 0;
 }
 
-.finish {
+.form-finish {
   text-align: center;
   font-family: "Oswald", sans-serif;
   font-size: 24pt;
 }
 
-.finish:hover {
-  color: #2ec4b6;
-}
+  .form-finish:hover {
+    color: #2ec4b6;
+  }
