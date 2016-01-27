@@ -7,11 +7,16 @@ d3.selectAll('.input-btn')
           .transition()
           .remove();
       var nextForm = d3.select('div.form-element:nth-child(2)');
-      console.log(nextForm);
       nextForm.transition().delay(1040)
           .style('opacity', 0)
           .transition()
           .duration(500)
           .style('opacity', 1)
           .style('display', 'block');
+    });
+
+d3.select('.finish')
+    .on('click', function(d) {
+      // create a demo loop
+      window.setTimeout(function() { location.href='index.html'; }, 700);
     });
