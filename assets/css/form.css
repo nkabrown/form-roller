@@ -45,6 +45,19 @@ form {
   font-size: 24pt;
 }
 
+input[type="radio"] {
+  width: 20px;
+  height: 20px;
+  outline: none;
+  vertical-align: bottom;
+}
+
+.radio-text {
+  font-family: "Oswald", sans-serif;
+  font-size: 16pt;
+  margin-right: 18px;
+}
+
 .thankyou {
   font-family: "Oswald", sans-serif;
   font-size: 75pt;
