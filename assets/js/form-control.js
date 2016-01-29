@@ -20,3 +20,11 @@ d3.select('.form-finish')
       // create a demo loop
       window.setTimeout(function() { location.href='index.html'; }, 700);
     });
+
+function lineInput(name) {
+  var value = document.getElementsByName(name)[0].value;
+}
+
+function radioInput(name) {
+  var value = document.querySelector('input[name=' + name + ']:checked').value;
+}

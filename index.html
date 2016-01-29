@@ -7,18 +7,18 @@
   <div class="form-element first">
     <form id="username">
       <p class="form-prompt">What is your first name?</p>
-      <input class="form-line" type="text" name="username">
+      <input class="form-line" type="text" name="username" value="">
       <br>
-      <button class="form-input-btn" type="button">Submit</button>
+      <button class="form-input-btn" type="button" onclick="lineInput('username')">Submit</button>
     </form>
   </div>
   <div class="form-element">
     <form id="gender">
       <p class="form-prompt">What is your gender?</p>
-      <input class="form-radio" type="radio" name="gender" value="Female"><span class="form-radio-text">Female</span>
+      <input class="form-radio" type="radio" name="gender" value="Female" checked><span class="form-radio-text">Female</span>
       <input class="form-radio" type="radio" name="gender" value="Male"><span class="form-radio-text">Male</span>
       <br>
-      <button class="form-input-btn" type="button">Submit</button>
+      <button class="form-input-btn" type="button" onclick="radioInput('gender')">Submit</button>
     </form>
   </div>
   <div class="form-element">
@@ -30,9 +30,9 @@
       <input class="form-radio" type="radio" name="mood" value="Surprised"><span class="form-radio-text">Surprised</span>
       <input class="form-radio" type="radio" name="mood" value="Disgusted"><span class="form-radio-text">Disgusted</span>
       <input class="form-radio" type="radio" name="mood" value="Scared"><span class="form-radio-text">Scared</span>
-      <input class="form-radio" type="radio" name="mood" value="Neutral"><span class="form-radio-text">Neutral</span>
+      <input class="form-radio" type="radio" name="mood" value="Neutral" checked><span class="form-radio-text">Neutral</span>
       <br>
-      <button class="form-input-btn" type="button">Submit</button>
+      <button class="form-input-btn" type="button" onclick="radioInput('mood')">Submit</button>
   </div>
   <div class="form-element">
     <p class="form-closing">THANKS</p>
